@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Fitcamp Community
+    SkyZone Community
 @endsection
 
 @section('content')
@@ -41,7 +41,7 @@
                 <img src="{{ asset('assets/images/icons/coupon-dollar.svg') }}" class="w-[72px] h-[72px] flex shrink-0"
                     alt="icon">
                 <h3 class="font-['ClashDisplay-SemiBold'] text-xl leading-6 tracking-05">Become Membership</h3>
-                <p class="tracking-03">Access to all fitcamp gym <br>
+                <p class="tracking-03">Access to all SkyZone gym <br>
                     and become part of our exclusive <br>
                     healty community. </p>
             </div>

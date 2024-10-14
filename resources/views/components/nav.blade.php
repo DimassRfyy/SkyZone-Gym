@@ -1,6 +1,6 @@
 <nav class="relative flex items-center justify-between w-full max-w-[1280px] mx-auto px-10 mt-10">
     <a href="{{ route('front.index') }}">
-        <img src="{{ asset('assets/images/logos/Logo.svg') }}" class="flex shrink-0" alt="logo">
+        <img src="{{ asset('assets/images/logos/logo.png') }}" class="flex shrink-0" alt="logo">
     </a>
     <ul class="flex items-center gap-6 justify-end">
         <li>

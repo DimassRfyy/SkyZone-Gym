@@ -31,7 +31,13 @@ class SubscribeTransactionResource extends Resource
 {
     protected static ?string $model = SubscribeTransaction::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-credit-card';
+
+    public static function getNavigationBadge(): ?string
+    {
+        return (string) SubscribeTransaction
+        ::where('is_paid', false)->count();
+    }
 
     public static function form(Form $form): Form
     {

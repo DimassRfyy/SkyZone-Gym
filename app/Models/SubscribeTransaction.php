@@ -35,7 +35,7 @@ class SubscribeTransaction extends Model
     }
 
     public static function generateUniqueTrxId() {
-        $prefix = 'FITBWA';
+        $prefix = 'SKYZN';
 
         do {
             $random_string = $prefix . mt_rand(1000, 9999);
